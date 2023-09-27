@@ -9,3 +9,8 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
+@media (prefers-color-scheme: light) {
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+  }
+}
