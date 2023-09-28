@@ -1,5 +1,5 @@
 :root .theme_light {
-  --title-color: #353430;;
+  --title-color: #353430;
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --section-color: #353430;
@@ -11,7 +11,7 @@
 
 .theme_light .header__decorated::after,
 .theme_light .header__decorated{
-    visibility: hidden;
+  visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,5 +29,17 @@
   }
   .theme_auto .header__decorated::after,
   .theme_auto .header__decorated {
-    visibility: hidden; }
+    visibility: hidden; 
+  }
+}
+@media (min-width: 1024px) {
+  .theme_auto .title-decor {
+    text-shadow: 4px 4px 0px #FF0070;
+  }
+}
+
+@media (min-width: 1024px) {
+  .theme_light .title-decor {
+    text-shadow: 4px 4px 0px #FF0070;
+  }
 }
