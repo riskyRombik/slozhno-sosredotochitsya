@@ -135,7 +135,7 @@
 }
 
 @media (min-width: 768px) {
-  .heading {
+  .header .heading {
     position: relative;
     inset-inline-start: -15px;
   }

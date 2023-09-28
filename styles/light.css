@@ -35,16 +35,24 @@
     visibility: hidden;
     z-index: -1;
   }
+
+  @media (min-width: 1024px) {
+    .theme_auto .footer .decorated__shadow {
+      text-shadow: 2px 2px 0 #FF0070;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
   .theme_auto .title-decor {
     text-shadow: 4px 4px 0px #FF0070;
   }
-}
 
-@media (min-width: 1024px) {
   .theme_light .title-decor {
     text-shadow: 4px 4px 0px #FF0070;
+  }
+
+  .theme_light .footer .decorated__shadow {
+    text-shadow: 2px 2px 0 #FF0070;
   }
 }
