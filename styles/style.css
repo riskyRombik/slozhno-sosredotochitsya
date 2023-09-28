@@ -104,7 +104,7 @@
 .header__theme-menu-button {
   position: relative;
   border: none;
-  padding: 0;
+  padding: 0 13px;
   color: var(--decorated-zone-color, #ff0070);
   font-size: 18px;
   background-color: transparent;
@@ -118,12 +118,10 @@
 }
 
 .header__theme-menu-button:hover {
-  padding: 0 13px;
   outline: 1px solid currentColor;
 }
 
 .header__theme-menu-button_active {
-  padding: 0 13px;
   outline: 1px solid currentColor;
   pointer-events: none;
 }
@@ -192,7 +190,7 @@
   }
 
   .content__section:nth-of-type(odd) .content__block {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
   }
 
   .content__section:nth-of-type(2) .content__title {
@@ -200,7 +198,7 @@
   }
 
   .content__section:nth-of-type(3) .content__block-title {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
 
