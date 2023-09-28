@@ -7,7 +7,6 @@
   background-color: var(--bg-color);
   background-image: url(/images/cover-image-dark.png);
   background-repeat: no-repeat;
-  background-attachment: scroll;
   background-attachment: fixed;
 }
 
@@ -135,6 +134,13 @@
   font-weight: 700;
   line-height: 0.825;
   text-align: start;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    position: relative;
+    inset-inline-start: -15px;
+  }
 }
 
 .header__title {

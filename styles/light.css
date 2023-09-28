@@ -3,35 +3,40 @@
   --text-color: #353430;
   --accent-color: #FF8DCB;
   --section-color: #353430;
-  --decorated-zone-color: #353430; 
-  --bg-color:#FFF1F7;
+  --decorated-zone-color: #353430;
+  --bg-color: #FFF1F7;
   --header-color: #FFC2E6;
   background-image: url(../images/cover-image-light.png);
 }
 
 .theme_light .header__decorated::after,
-.theme_light .header__decorated{
+.theme_light .header__decorated {
   visibility: hidden;
+  z-index: -1;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --title-color: #353430;;
+    --title-color: #353430;
     --text-color: #353430;
     --accent-color: #FF8DCB;
     --section-color: #353430;
-    --decorated-zone-color: #353430; 
-    --bg-color:#FFF1F7;
+    --decorated-zone-color: #353430;
+    --bg-color: #FFF1F7;
     --header-color: #FFC2E6;
   }
+
   .page {
     background-image: url(../images/cover-image-light.png);
   }
+
   .theme_auto .header__decorated::after,
   .theme_auto .header__decorated {
-    visibility: hidden; 
+    visibility: hidden;
+    z-index: -1;
   }
 }
+
 @media (min-width: 1024px) {
   .theme_auto .title-decor {
     text-shadow: 4px 4px 0px #FF0070;
