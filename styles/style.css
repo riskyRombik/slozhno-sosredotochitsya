@@ -105,7 +105,7 @@
 
 .header__theme-menu-button {
   position: relative;
-  border: none;
+  border: 1px solid transparent;
   padding: 0 13px;
   color: var(--decorated-zone-color, #ff0070);
   font-size: 18px;
@@ -114,9 +114,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  color: var(--decorated-zone-color, #ff0070);
-  text-decoration: underline;
-  text-underline-offset: 2px;
+  border-bottom: 1px solid var(--decorated-zone-color, #ff0070);
 }
 
 .header__theme-menu-button:hover {
@@ -236,8 +234,7 @@
 }
 
 .content__link:hover {
-  color: currentColor;
-  text-decoration: underline;
+  border-bottom: 1px solid currentColor;
 }
 
 .decorated__shadow {

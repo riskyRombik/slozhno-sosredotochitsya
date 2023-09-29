@@ -11,8 +11,9 @@
 
 .theme_light .header__decorated::after,
 .theme_light .header__decorated {
-  visibility: hidden;
-  z-index: -1;
+  /* visibility: hidden;
+  z-index: -1; */
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -32,8 +33,9 @@
 
   .theme_auto .header__decorated::after,
   .theme_auto .header__decorated {
-    visibility: hidden;
-    z-index: -1;
+    /* visibility: hidden;
+    z-index: -1; */
+    display: none;
   }
 
   @media (min-width: 1024px) {
